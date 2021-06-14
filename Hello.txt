@@ -1,0 +1,11 @@
+public class Hello{
+    public static void main(String []args)
+
+        {
+          String s=args[0]; //reading from cmd line
+          //reading from cmd line of type int
+          int age=Integer.parseInt(args[1]); 
+          System.out.println("hello"+s+age);
+
+         }
+}
